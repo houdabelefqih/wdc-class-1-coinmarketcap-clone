@@ -24,7 +24,7 @@ $ mkvirtualenv -p $(which python3.5)
 $ pip install -r requirements/base.txt
 ```
 
-_Note: If you're using RMOTR Notebooks, you don't need to create a virtualenv_
+_Note: If you're using a Jupyter Notebook / JupyterLab based environment, you don't need to create a virtualenv_
 
 ## 2) Creating the Django project
 
