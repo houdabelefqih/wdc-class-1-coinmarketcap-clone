@@ -7,6 +7,7 @@ PYTHONPATH=coinmarketcap
 DJANGO_SETTINGS=coinmarketcap.settings
 
 # django-command = django-admin $(1) $(HOST):$(PORT) --settings $(DJANGO_SETTINGS) --pythonpath $(PYTHONPATH)
+
 django-command = django-admin $(1) $(2) --settings $(DJANGO_SETTINGS) --pythonpath $(PYTHONPATH)
 
 runserver:
@@ -35,3 +36,4 @@ load_initial_data:
 
 notebook:
 	PYTHONPATH=$(realpath sample_project) jupyter notebook --ip=127.0.0.1
+
